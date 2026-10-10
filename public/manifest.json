@@ -1,0 +1,16 @@
+{
+  "name": "TrailSync — Digital Minimalism in Nature",
+  "short_name": "TrailSync",
+  "description": "Zero-friction, hyper-local nature intelligence and offline field guide for hikers, gardeners, and birders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0f0e",
+  "theme_color": "#2a3929",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

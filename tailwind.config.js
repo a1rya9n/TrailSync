@@ -1,0 +1,86 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        sage: {
+          50: '#f4f6f4',
+          100: '#e5ece5',
+          200: '#cbdac9',
+          300: '#a5c0a2',
+          400: '#7fa37c',
+          500: '#5f845c',
+          600: '#4a6a47',
+          700: '#3c543a',
+          800: '#324531',
+          900: '#2a3929',
+          950: '#151e15',
+        },
+        stone: {
+          50: '#faf8f5',
+          100: '#f4efe6',
+          150: '#ece5d8',
+          200: '#e4dac9',
+          300: '#d0bfab',
+          400: '#b79f87',
+          500: '#9e8168',
+          600: '#866b53',
+          700: '#6d5542',
+          800: '#584537',
+          900: '#46382e',
+          950: '#261d18',
+        },
+        terracotta: {
+          50: '#fdf6f3',
+          100: '#faece5',
+          200: '#f4d6c7',
+          300: '#ebb6a0',
+          400: '#de8c6e',
+          500: '#c85a3c',
+          600: '#b44629',
+          700: '#94371f',
+          800: '#79301e',
+          900: '#642b1d',
+        },
+        charcoal: {
+          50: '#f6f7f7',
+          100: '#e2e5e5',
+          200: '#c5cbca',
+          300: '#9ea8a6',
+          400: '#75817e',
+          500: '#5b6664',
+          600: '#46504e',
+          700: '#38413f',
+          800: '#232a29',
+          900: '#161b1a',
+          950: '#0c0f0e',
+        },
+        pocket: {
+          bg: '#0a0d0c',
+          card: '#121715',
+          border: '#202926',
+          text: '#d8dedb',
+          muted: '#808f8a',
+          red: '#ef4444',
+          amber: '#f59e0b',
+        }
+      },
+      fontFamily: {
+        sans: ['"Inter"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        display: ['"Outfit"', '"Inter"', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+      },
+      boxShadow: {
+        'soft': '0 2px 15px -3px rgba(35, 42, 41, 0.05), 0 4px 6px -2px rgba(35, 42, 41, 0.03)',
+        'card': '0 4px 20px -2px rgba(35, 42, 41, 0.07)',
+        'pocket': '0 0 0 1px #202926',
+      }
+    },
+  },
+  plugins: [],
+}
